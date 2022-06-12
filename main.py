@@ -1,5 +1,5 @@
 # угадай число =)
-# vova lox
+# vova ne lox
 import random
 import time
 from colorama import init
