@@ -1,4 +1,5 @@
 # угадай число =)
+# vova lox
 import random
 import time
 from colorama import init
@@ -48,3 +49,6 @@ while user_number != random_number:
         print(Fore.CYAN)
         print(f"You are correct!!!, your number is {random_number} \nYou are correct!!!, your number is {random_number} \nYou are correct!!!, your number is {random_number}")
         break
+
+
+# Пососи (pososi)
