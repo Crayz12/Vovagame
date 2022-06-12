@@ -1,9 +1,4 @@
 # угадай число =)
-<<<<<<< HEAD
-# vova lox
-=======
-# vova ne lox
->>>>>>> 885a756bd4953c11930be8f4d845a5a2d18d41c0
 import random
 import time
 from colorama import init
