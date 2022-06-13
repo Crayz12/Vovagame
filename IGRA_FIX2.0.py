@@ -1,9 +1,8 @@
 # УГАДАЙ ЧИСЛО =)
-from cmath import pi
 import random
 import time
 from colorama import init
-from colorama import Fore, Back, Style
+from colorama import Fore
 init()
 # Чит-код для игры
 # Попытки и время
@@ -22,9 +21,8 @@ def get_user_number():
             print("Invalid input. Please try again!")
             
             
-resulting_user_number = get_user_number()
-print(f"Thanks! You entered: {resulting_user_number}")
-user_number = resulting_user_number
+user_number = get_user_number()
+print(f"Thanks! You entered: {user_number}")
 
 
 def get_user_number2():
@@ -41,11 +39,15 @@ def get_user_number2():
                     print(Fore.YELLOW)
                     return int(input("Choose the number from 1 to 100: "))
             except ValueError:
-                print(Fore.BLACK)
-                print("Invalid input. Please try again!")  
+                if user_number == "niggers":
+                    print("ah ti chiter")
+                    break
+                else:   
+                    print(Fore.BLACK)
+                    print("Invalid input. Please try again!")  
 
 while True:
-    if tries != 11:
+    if tries != None:
         if int(user_number) == random_number:
             print(Fore.CYAN)
             print(f"You are correct!!!, your number is {random_number} \nYou are correct!!!, your number is {random_number} \nYou are correct!!!, your number is {random_number}")    
